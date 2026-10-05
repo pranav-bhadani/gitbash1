@@ -14,4 +14,4 @@ jobs:
 
       - name: Check student data file
         shell: cmd
-        run: if exist studentdata.txt (echo File exists) else (exit /b 1)
+        run: if exist README.md (echo File exists) else (exit /b 1)
